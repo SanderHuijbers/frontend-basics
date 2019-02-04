@@ -1,0 +1,14 @@
+{
+  "name": "frontend-basics",
+  "version": "1.0.0",
+  "description": "This is a project for frontend-basics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "TEST"
+  },
+  "author": "Sander Huijbers",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
