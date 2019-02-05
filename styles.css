@@ -2,12 +2,24 @@ body nav {
   background-color: aqua;
   padding: 10px;
   border-radius: 4px;
-  list-style-type: none; }
+  list-style-type: none;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
   body nav a {
     width: 33%;
     display: inline-block;
     text-align: center;
     transition: 0.3s ease-out all; }
+  body nav a:link {
+    color: white; }
+  body nav a:visited {
+    color: green; }
+  body nav a:hover {
+    color: black; }
+  body nav a:active {
+    color: blue; }
 
 body footer {
   background-color: orange;
@@ -15,4 +27,6 @@ body footer {
   border-radius: 4px; }
 
 body .menu {
-  height: 40px; }
+  height: 40px;
+  font-size: 20px;
+  text-transform: uppercase; }
