@@ -4,7 +4,8 @@
   "description": "This is a project for frontend-basics.",
   "main": "index.js",
   "scripts": {
-    "test": "TEST"
+    "test": "TEST",
+    "sass": "node-sass syles.scss -wo ./"
   },
   "author": "Sander Huijbers",
   "license": "ISC",
