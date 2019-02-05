@@ -1,8 +1,15 @@
+$primary-color: orange;
+$secondary-color: green;
+$tertiary-color: #eeeeee;
+$primary-font-color: black;
+$border-radius: 4px;
+
+
 body {
     nav {
-        background-color: aqua;
+        background-color: $secondary-color;
         padding: 10px;
-        border-radius: 4px;
+        border-radius: $border-radius;
         list-style-type: none;
          /* unvisited link */
 
@@ -13,22 +20,22 @@ body {
             transition: 0.3s ease-out all;
         }
         a:link {
-            color: white;
+            color: $tertiary-color;
           }
           
           /* visited link */
           a:visited {
-            color: green;
+            color: $tertiary-color;
           }
           
           /* mouse over link */
           a:hover {
-            color: black;
+            color: $primary-font-color;
           }
           
           /* selected link */
           a:active {
-            color: blue;
+            color: $tertiary-color;
           } 
 
     }
@@ -36,9 +43,9 @@ body {
 
     }
     footer {
-        background-color: orange;
+        background-color: $primary-color;
         padding: 10px;
-        border-radius: 4px;
+        border-radius: $border-radius;
 
     }
     .menu {

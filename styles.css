@@ -1,5 +1,5 @@
 body nav {
-  background-color: aqua;
+  background-color: green;
   padding: 10px;
   border-radius: 4px;
   list-style-type: none;
@@ -13,13 +13,13 @@ body nav {
     text-align: center;
     transition: 0.3s ease-out all; }
   body nav a:link {
-    color: white; }
+    color: #eeeeee; }
   body nav a:visited {
-    color: green; }
+    color: #eeeeee; }
   body nav a:hover {
     color: black; }
   body nav a:active {
-    color: blue; }
+    color: #eeeeee; }
 
 body footer {
   background-color: orange;
