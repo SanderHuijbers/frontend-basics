@@ -13,3 +13,6 @@ body footer {
   background-color: orange;
   padding: 10px;
   border-radius: 4px; }
+
+body .menu {
+  height: 40px; }
