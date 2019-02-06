@@ -2,7 +2,7 @@ $primary-color: rgb(201, 201, 201);
 $secondary-color: rgb(87, 87, 87);
 $tertiary-color: #eeeeee;
 $primary-font-color: black;
-$border-radius: 4px;
+$border-radius: 10px;
 $opacity: 0.8;
 
 
@@ -16,14 +16,15 @@ body {
          /* unvisited link */
 
         a {
-            width: 33%;
+            width: 20%;
             display: inline-block;
             text-align: center;
             transition: 0.3s ease-out all;
+            text-decoration: none;
         }
         a:link {
             color: $tertiary-color;
-          }
+            }
           
           /* visited link */
           a:visited {
@@ -47,6 +48,7 @@ body {
     footer {
         background-color: $primary-color;
         padding: 10px;
+        margin-top: 20px;
         border-radius: $border-radius;
         opacity: $opacity;
 
@@ -67,18 +69,28 @@ body {
         background-color: $primary-color;
         border-radius: $border-radius;
         opacity: $opacity;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        box-shadow: 5px 10px #888888;
     }
     .right {
         width: 50%;
         background-color: $primary-color;
         border-radius: $border-radius;
         opacity: $opacity;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        box-shadow: 5px 10px #888888;
     }
 
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
 }
 
 .background {
     background-image: url("./company_logo.jpg");
     background-repeat: no-repeat;
-    height: 100%;
+    background-position: right bottom;
+    background-size: 30%;
+
 }
