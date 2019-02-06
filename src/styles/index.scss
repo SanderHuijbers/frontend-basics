@@ -1,3 +1,5 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 $primary-color: rgb(201, 201, 201);
 $secondary-color: rgb(87, 87, 87);
 $tertiary-color: #eeeeee;
@@ -106,14 +108,14 @@ body {
         box-shadow: 5px 10px 10px #888888;
     }
 
-    //font-family: Verdana, Geneva, sans-serif;
+    //font-family: Calibri (Body), Geneva, sans-serif;
     padding: 20px;
 }
 
 .background {
-    background-image: url("./company_logo.jpg");
+    background-image: url("./images/company_logo.jpg");
     background-repeat: no-repeat;
     background-position: 90% 50%;
-    background-size: 30%;
+    background-size: 31%;
 
 }

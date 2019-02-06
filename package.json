@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "TEST",
-    "sass": "node-sass styles.scss -wo ./"
+    "sass": "node-sass ./src/styles/index.scss -wo ./dist"
   },
   "author": "Sander Huijbers",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "bootstrap": "^4.2.1",
+    "frontend": "^1.0.3",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.7"
   }
 }
