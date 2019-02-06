@@ -40,6 +40,29 @@ body {
           a:active {
             color: $tertiary-color;
           } 
+          h1 {
+            font-family: Brush Script MT, Geneva, sans-serif; 
+          }
+
+          .dynamic-color {
+
+            background: transparent;
+         
+            transition: 0.3s all ease-out;
+         
+            transform: scale(1);
+         
+         
+         
+            &:hover {
+         
+                background: green;
+         
+                transform: scale(1);
+         
+            }
+         
+         }
 
     }
     main {
@@ -71,7 +94,7 @@ body {
         opacity: $opacity;
         padding-left: 20px;
         padding-bottom: 20px;
-        box-shadow: 5px 10px #888888;
+        box-shadow: 5px 10px 10px #888888;
     }
     .right {
         width: 50%;
@@ -80,17 +103,17 @@ body {
         opacity: $opacity;
         padding-left: 20px;
         padding-bottom: 20px;
-        box-shadow: 5px 10px #888888;
+        box-shadow: 5px 10px 10px #888888;
     }
 
-    font-family: Verdana, Geneva, sans-serif;
+    //font-family: Verdana, Geneva, sans-serif;
     padding: 20px;
 }
 
 .background {
     background-image: url("./company_logo.jpg");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: 90% 50%;
     background-size: 30%;
 
 }

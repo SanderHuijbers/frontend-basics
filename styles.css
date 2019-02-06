@@ -1,5 +1,4 @@
 body {
-  font-family: Verdana, Geneva, sans-serif;
   padding: 20px; }
   body nav {
     background-color: #575757;
@@ -24,6 +23,15 @@ body {
       color: black; }
     body nav a:active {
       color: #eeeeee; }
+    body nav h1 {
+      font-family: Brush Script MT, Geneva, sans-serif; }
+    body nav .dynamic-color {
+      background: transparent;
+      transition: 0.3s all ease-out;
+      transform: scale(1); }
+      body nav .dynamic-color:hover {
+        background: green;
+        transform: scale(1); }
   body footer {
     background-color: #c9c9c9;
     padding: 10px;
@@ -44,7 +52,7 @@ body {
     opacity: 0.8;
     padding-left: 20px;
     padding-bottom: 20px;
-    box-shadow: 5px 10px #888888; }
+    box-shadow: 5px 10px 10px #888888; }
   body .right {
     width: 50%;
     background-color: #c9c9c9;
@@ -52,10 +60,10 @@ body {
     opacity: 0.8;
     padding-left: 20px;
     padding-bottom: 20px;
-    box-shadow: 5px 10px #888888; }
+    box-shadow: 5px 10px 10px #888888; }
 
 .background {
   background-image: url("./company_logo.jpg");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: 90% 50%;
   background-size: 30%; }
